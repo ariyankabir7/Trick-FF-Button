@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FFF Macro Fire Button</string>
+    <string name="track">ปุ่มติดตาม</string>
+    <string name="btnsize">ขนาดปุ่ม</string>
+    <string name="btn_optasity">ความทึบของปุ่ม</string>
+    <string name="in_game">พื้นหลังในเกม</string>
+    <string name="background">ความทึบของพื้นหลัง</string>
+    <string name="colors">สี</string>
+    <string name="passing">หลีกเลี่ยงการผ่าน</string>
+    <string name="speed">ควบคุมความเร็ว</string>
+    <string name="title">มาโครไฟ</string>
+</resources>

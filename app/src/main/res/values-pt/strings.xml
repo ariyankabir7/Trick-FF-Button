@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FFF Macro Fire Button</string>
+    <string name="track">Botão Rastrear</string>
+    <string name="btnsize">Tamanho do botão</string>
+    <string name="btn_optasity">Opacidade do botão</string>
+    <string name="in_game">Plano de fundo do jogo</string>
+    <string name="background">Opacidade de fundo</string>
+    <string name="colors">Cores</string>
+    <string name="passing">Evite passar</string>
+    <string name="speed">Velocidade de controle</string>
+    <string name="title">Macrofogo</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FFF Macro Fire Button</string>
+    <string name="track">زر المسار</string>
+    <string name="btnsize">حجم الزر</string>
+    <string name="btn_optasity">عتامة الزر</string>
+    <string name="in_game">الخلفية داخل اللعبة</string>
+    <string name="background">عتامة الخلفية</string>
+    <string name="colors">الألوان</string>
+    <string name="passing">تجنب المرور</string>
+    <string name="speed">سرعة التحكم</string>
+    <string name="title">حريق ماكرو</string>
+</resources>

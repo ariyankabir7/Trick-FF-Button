@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:cardCornerRadius="@dimen/_15sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <LinearLayout
+                android:id="@+id/eng"
+                android:layout_width="match_parent"
+                android:background="@drawable/language_bg"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:layout_height="@dimen/_40sdp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_16ssp"
+                    android:text="ENGLISH"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/spn"
+                android:layout_width="match_parent"
+                android:background="@drawable/language_bg"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:layout_height="@dimen/_40sdp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_16ssp"
+                    android:text="ESPAINHOL"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/arb"
+                android:layout_width="match_parent"
+                android:background="@drawable/language_bg"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:layout_height="@dimen/_40sdp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_16ssp"
+                    android:text="ARABE"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/por"
+                android:layout_width="match_parent"
+                android:background="@drawable/language_bg"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:layout_height="@dimen/_40sdp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_16ssp"
+                    android:text="PARTUGUES"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/vit"
+                android:layout_width="match_parent"
+                android:background="@drawable/language_bg"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:layout_height="@dimen/_40sdp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_16ssp"
+                    android:text="VIETNAMITA"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/thai"
+                android:layout_width="match_parent"
+                android:background="@drawable/language_bg"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_30sdp"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:layout_height="@dimen/_40sdp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_16ssp"
+                    android:text="TAILANDES"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

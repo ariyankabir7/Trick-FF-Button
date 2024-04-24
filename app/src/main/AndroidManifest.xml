@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -15,13 +17,13 @@
         android:theme="@style/Theme.Overly"
         tools:targetApi="31">
         <activity
-            android:name=".SideActivity"
+            android:name="app.test.xyz.SideActivity"
             android:exported="false" />
         <activity
-            android:name=".HomeActivity"
+            android:name="app.test.xyz.HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="app.test.xyz.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,6 +31,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data android:name="applovin.sdk.key"
+            android:value="_AZ7TkTRuqMRADHmrKfZNtw0vJFSzcfDgSsV5voTGrXU5rAlC4XFt6RPV7DSuMPh-hJ1Gwe6rwtLQw1PnkyfeI"/>
     </application>
 
 </manifest>

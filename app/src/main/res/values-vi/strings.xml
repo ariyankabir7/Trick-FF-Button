@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FFF Macro Fire Button</string>
+    <string name="track">NÚT THEO DÕI</string>
+    <string name="btnsize">Kích thước nút</string>
+    <string name="btn_optasity">Độ mờ của nút</string>
+    <string name="in_game">Bối cảnh trong trò chơi</string>
+    <string name="background">Độ mờ nền</string>
+    <string name="colors">Màu sắc</string>
+    <string name="passing">Tránh vượt qua</string>
+    <string name="speed">Kiểm soát tốc độ</string>
+    <string name="title">Lửa vĩ mô</string>
+</resources>

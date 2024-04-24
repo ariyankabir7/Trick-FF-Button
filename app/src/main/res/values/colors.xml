@@ -7,4 +7,5 @@
     <color name="light_green">#02AC09</color>
     <color name="dark_yello">#E38E0D</color>
     <color name="off_switch">#ececec</color>
+    <color name="text_color_red">#fe2747</color>
 </resources>

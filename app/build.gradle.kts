@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.webnexa.overly"
+    namespace = "app.test.xyz"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.webnexa.overly"
+        applicationId = "app.test.xyz"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -51,4 +51,10 @@ dependencies {
 
     implementation ("com.intuit.sdp:sdp-android:1.1.1")
     implementation ("com.intuit.ssp:ssp-android:1.1.1")
+    implementation("com.airbnb.android:lottie:6.4.0")
+
+
+    implementation("com.applovin:applovin-sdk:12.4.2")
+    implementation("com.facebook.android:audience-network-sdk:6.17.0")
+    implementation ("com.applovin.mediation:facebook-adapter:6.16.0.2")
 }

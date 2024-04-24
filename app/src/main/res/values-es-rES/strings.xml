@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FFF Macro Fire Button</string>
+    <string name="track">Vojo Butono</string>
+    <string name="btnsize">Tamaño del botón</string>
+    <string name="btn_optasity">Opacidad del botón</string>
+    <string name="in_game">Antecedentes del juego</string>
+    <string name="background">Opacidad del fondo</string>
+    <string name="colors">Colores</string>
+    <string name="passing">Evite pasar</string>
+    <string name="speed">Control de velocidad</string>
+    <string name="title">fuego macro</string>
+</resources>

@@ -5,155 +5,91 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SideActivity"
-    android:background="@color/black">
+    tools:context="app.test.xyz.SideActivity"
+    android:background="@drawable/bg">
 
-    <com.google.android.material.card.MaterialCardView
-        android:id="@+id/c1"
+    <LinearLayout
+        android:id="@+id/head"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_50sdp"
-        android:layout_marginHorizontal="@dimen/_20sdp"
-        android:backgroundTint="#717171"
-        android:layout_marginTop="@dimen/_200sdp"
-        app:cardCornerRadius="@dimen/_10sdp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="26dp">
+        android:background="@drawable/headder"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginHorizontal="@dimen/_20ssp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent">
 
-        <LinearLayout
-            android:id="@+id/l1"
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:orientation="horizontal">
+            android:text="FFF4X MARCO FIRE BUTTON"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18ssp"
+            android:textStyle="bold"/>
 
-            <ImageView
-                android:src="@drawable/home"
-                android:layout_width="@dimen/_30sdp"
-                android:layout_height="@dimen/_30sdp"
-                android:layout_marginStart="@dimen/_10sdp"
-                android:layout_marginEnd="@dimen/_10sdp" />
+    </LinearLayout>
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_10sdp"
-                android:layout_weight="1"
-                android:text="Home"
-                android:textColor="@color/white"
-                android:textSize="@dimen/_18ssp"
-                android:textStyle="bold" />
-
-
-        </LinearLayout>
-
-    </com.google.android.material.card.MaterialCardView>
-    <com.google.android.material.card.MaterialCardView
+    <LinearLayout
+        android:id="@+id/c1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:background="@drawable/startapp"
+       app:layout_constraintTop_toBottomOf="@id/head"
+        android:orientation="horizontal" />
+    <LinearLayout
         android:id="@+id/c2"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_50sdp"
+        android:layout_height="@dimen/_70sdp"
         android:layout_marginHorizontal="@dimen/_20sdp"
         android:layout_marginTop="@dimen/_10sdp"
-        android:backgroundTint="#717171"
+        android:background="@drawable/rateus"
         app:cardCornerRadius="@dimen/_10sdp"
-        app:layout_constraintTop_toBottomOf="@+id/c1">
+        app:layout_constraintTop_toBottomOf="@+id/c1"
+        android:orientation="horizontal" />
 
-        <LinearLayout
-            android:id="@+id/l2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:gravity="center">
-
-            <ImageView
-                android:src="@drawable/star"
-                android:layout_width="@dimen/_30sdp"
-                android:layout_height="@dimen/_30sdp"
-                android:layout_marginEnd="@dimen/_10sdp"
-                android:layout_marginStart="@dimen/_10sdp"/>
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_10sdp"
-                android:layout_weight="1"
-                android:text="Rate Us"
-                android:textColor="@color/white"
-                android:textSize="@dimen/_18ssp"
-                android:textStyle="bold" />
-        </LinearLayout>
-
-    </com.google.android.material.card.MaterialCardView>
-    <com.google.android.material.card.MaterialCardView
+    <LinearLayout
         android:id="@+id/c3"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_50sdp"
+        android:layout_height="@dimen/_70sdp"
         android:layout_marginHorizontal="@dimen/_20sdp"
-        android:layout_marginTop="@dimen/_10sdp"
-        android:backgroundTint="#717171"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/shareapp"
+        android:orientation="horizontal"
         app:cardCornerRadius="@dimen/_10sdp"
-        app:layout_constraintTop_toBottomOf="@+id/c2">
+        app:layout_constraintTop_toBottomOf="@+id/c2"
+        tools:layout_editor_absoluteX="26dp" />
 
-        <LinearLayout
-            android:id="@+id/l3"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:gravity="center">
-
-            <ImageView
-                android:src="@drawable/shareicon"
-                android:layout_width="@dimen/_30sdp"
-                android:layout_height="@dimen/_30sdp"
-                android:layout_marginEnd="@dimen/_10sdp"
-                android:layout_marginStart="@dimen/_10sdp"/>
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_10sdp"
-                android:layout_weight="1"
-                android:text="Share Us"
-                android:textColor="@color/white"
-                android:textSize="@dimen/_18ssp"
-                android:textStyle="bold" />
-        </LinearLayout>
-
-    </com.google.android.material.card.MaterialCardView>
-    <com.google.android.material.card.MaterialCardView
+    <LinearLayout
         android:id="@+id/c4"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_50sdp"
+        android:layout_height="@dimen/_70sdp"
         android:layout_marginHorizontal="@dimen/_20sdp"
         android:layout_marginTop="@dimen/_10sdp"
-        android:backgroundTint="#717171"
+        android:background="@drawable/privacypolicy"
         app:cardCornerRadius="@dimen/_10sdp"
-        app:layout_constraintTop_toBottomOf="@+id/c3">
+        app:layout_constraintTop_toBottomOf="@+id/c3"
+        android:orientation="horizontal" />
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/nativeads"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_160sdp"
+        android:backgroundTint="#1e2978"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        app:layout_constraintTop_toBottomOf="@id/c4">
 
-        <LinearLayout
-            android:id="@+id/l4"
+        <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:gravity="center">
+            android:id="@+id/native_ad_layout"/>
 
-            <ImageView
-                android:src="@drawable/privacy"
-                android:layout_width="@dimen/_30sdp"
-                android:layout_height="@dimen/_30sdp"
-                android:layout_marginEnd="@dimen/_10sdp"
-                android:layout_marginStart="@dimen/_10sdp"/>
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_10sdp"
-                android:layout_weight="1"
-                android:text="Privacy Policy"
-                android:textColor="@color/white"
-                android:textSize="@dimen/_18ssp"
-                android:textStyle="bold" />
-        </LinearLayout>
 
     </com.google.android.material.card.MaterialCardView>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
