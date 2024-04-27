@@ -210,7 +210,10 @@ class HomeActivity : AppCompatActivity(), MaxAdListener {
         binding.backgroundbtn.isEnabled = false
         binding.color.isEnabled=false
 
-        binding.back.setOnClickListener { finish() }
+        binding.back.setOnClickListener {
+            finish()
+            removeOverlayView()
+        }
 
         binding.sw.setOnCheckedChangeListener { _, isChecked ->
             if (isChecked) {
@@ -566,5 +569,10 @@ class HomeActivity : AppCompatActivity(), MaxAdListener {
 
     override fun onBackPressed() {
         finish()
+        removeOverlayView()
+    }
+
+    override fun onDestroy() {
+        removeOverlayView()
     }
 }
